@@ -6,9 +6,9 @@ layout: feed
 
 	<title>Jeremy Gibbs's Blog</title>
 	<link href="https://www.gibbs.at/blog/atom.xml" rel="self"/>
-	<link href="https://www.gibbs.at/blog/blog"/>
+	<link href="https://www.gibbs.at/blog"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>https://www.gibbs.at/blog/blog</id>
+	<id>https://www.gibbs.at/blog</id>
 	<author>
 		<name>Jeremy Gibbs</name>
 		<email>lists+github-pages@gibbs.at</email>
