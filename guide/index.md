@@ -17,5 +17,5 @@ Simple: use hashes (\#) -- one \# for a top-level H1 heading, to six \###### for
 For italics (light emphasis), use a single asterisk or underscore at start and end; for bold (strong emphasis), use two asterisks or underscores. 
 
 Example: \*italic\* &#8594; *italic*; \*\*bold\*\* &#8594; **bold**; \*\*\*bold italics\*\*\* &#8594; ***bold italics***
-(BTW, underlining isn't part of Markdown, but can be implemented in kramdown using `<span style="text-decoration:underline">underlined</span>`  &#8594; <span style="text-decoration:underline">underlined</span> *or* `underlined{: style="text-decoration:underline}`  &#8594; {::}underlined{: style="text-decoration:underline}.)
+(BTW, underlining isn't part of Markdown, but can be implemented using inline CSS: `<span style="text-decoration:underline">underlined</span>`  &#8594; <span style="text-decoration:underline">underlined</span>.)
 
