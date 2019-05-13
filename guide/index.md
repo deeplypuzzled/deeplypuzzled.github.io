@@ -75,6 +75,18 @@ Either number each line, with a period after the number, or use an asterisk and 
 * Bravo
 * Charlie
 
+## Footnotes
+
+~~~~
+Here is some text with a footnote.[^1]
+
+[^1]: This is the footnote, with a link back to the text.
+~~~~
+
+Here is some text with a footnote.[^1]
+
+[^1]: This is the footnote, with a link back to the text.
+
 ## Tables (very simple)
 
 ~~~~
@@ -137,4 +149,4 @@ In each case, the variable is enclosed in double curly brackets, thus: \{\{ *var
 
 ###### Header 6
 
-v8.4
+v8.5
