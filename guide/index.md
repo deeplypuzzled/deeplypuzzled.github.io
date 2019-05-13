@@ -51,12 +51,12 @@ Start a line with `>` (and optional space). Every following line that starts wit
 
 ## Code with highlighting
 
-`~~~ html
-<div class="blurb">
-	<h1>Hi.</h1>
-	<p>This is my blog.</p>
-</div><!-- /.blurb -->
-~~~`
+\~\~\~ html  
+`<div class="blurb">`  
+`	<h1>Hi.</h1>`  
+`	<p>This is my blog.</p>`  
+`</div><!-- /.blurb -->`  
+\~\~\~
 
 ~~~ html
 <div class="blurb">
