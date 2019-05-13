@@ -2,9 +2,11 @@
 layout: bootstrap
 title: Bootstrap test 2
 ---
-    <h1>Boostrap test page 2</h1>
-    <p>This page uses <a href="https://getbootstrap.com">Bootstrap</a> and implements several examples.</p>
-    <p>It relies on the Bootstrap version of the default template
+# Bootstrap test page 2
+
+This page uses <a href="https://getbootstrap.com">Bootstrap</a> and implements several examples.
+
+It relies on the Bootstrap version of the default template.
     
 <div class="alert alert-danger" role="alert">
   A simple danger alert—check it out!
@@ -12,6 +14,7 @@ title: Bootstrap test 2
 <div class="alert alert-warning" role="alert">
   A simple warning alert—check it out!
 </div>
+
 
 <span class="badge badge-primary">Primary</span>
 <span class="badge badge-secondary">Secondary</span>
@@ -21,6 +24,7 @@ title: Bootstrap test 2
 <span class="badge badge-info">Info</span>
 <span class="badge badge-light">Light</span>
 <span class="badge badge-dark">Dark</span>
+    
     
 <ul class="nav nav-tabs">
   <li class="nav-item">
@@ -37,6 +41,7 @@ title: Bootstrap test 2
   </li>
 </ul>
     
+    
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">Navbar</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,3 +56,5 @@ title: Bootstrap test 2
     </div>
   </div>
 </nav>
+
+
