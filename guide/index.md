@@ -55,6 +55,18 @@ Use three or more asterisks, dashes or underscores (on their own).
 
 ***
 
+## Lists
+
+Either number each line, with a period after the number, or use an asterisk and a space.
+
+1. One
+2. Two
+3. Three
+
+* Alpha
+* Bravo
+* Charlie
+
 ## Variables
 
 In each case, the variable is enclosed in double curly brackets, thus: \{\{ *variable_name* \}\}
