@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Jeremy Gibbs Launches Website"
+title: "Websites Launched"
 date: 2019-05-11
 ---
 
