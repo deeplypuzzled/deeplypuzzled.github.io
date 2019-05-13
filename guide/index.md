@@ -27,7 +27,7 @@ Example: `*italic*` &#8594; *italic*; `**bold**` &#8594; **bold**; `***bold ital
 
 ## Blockquotes
 
-Start a line with `>` (and optional space). Every following line that starts with `>` is included in that blockquote. Multiple `>`s afe nested.
+Start a line with `>` (and optional space). Every following line that starts with `>` is included in that blockquote. Multiple `>`s are nested.
 
 ~~~~
 > A sample blockquote.
