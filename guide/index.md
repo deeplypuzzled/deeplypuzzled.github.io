@@ -25,7 +25,7 @@ For italics (light emphasis), use a single asterisk or underscore at start and e
 Example: `*italic*` &#8594; *italic*; `**bold**` &#8594; **bold**; `***bold italics***` &#8594; ***bold italics***
 (BTW, underlining isn't part of Markdown, but can be implemented using inline CSS: `<span style="text-decoration:underline">underlined</span>`  &#8594; <span style="text-decoration:underline">underlined</span>.)
 
-## Blockquotes
+## Blockquotes (and code blocks)
 
 Start a line with `>` (and optional space). Every following line that starts with `>` is included in that blockquote. Multiple `>`s are nested.
 
@@ -39,6 +39,8 @@ Start a line with `>` (and optional space). Every following line that starts wit
 > This is the outer quote again.
 ~~~~
 
+(That was a code block, BTW, with a row of a few tildes (~) above and below it.)
+
 > A sample blockquote.
 >
 > >Nested blockquotes are
@@ -46,6 +48,21 @@ Start a line with `>` (and optional space). Every following line that starts wit
 >
 > ## Headers work too
 > This is the outer quote again.
+
+## Code with highlighting
+
+`~~~ html
+<div class="blurb">
+	<h1>Hi.</h1>
+	<p>This is my blog.</p>
+</div><!-- /.blurb -->
+~~~`
+~~~ html
+<div class="blurb">
+	<h1>Hi.</h1>
+	<p>This is my blog.</p>
+</div><!-- /.blurb -->
+~~~
 
 ## Variables
 
