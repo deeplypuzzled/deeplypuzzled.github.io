@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Testing Kramdown
+title: About
 ---
-# How this website was built
+# About this website
 
 This website was built using software and platforms provided by others. Here's a list of them, with the foundations at the bottom and the "higher" levels at the top.
 
