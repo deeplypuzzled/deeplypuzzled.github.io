@@ -12,11 +12,11 @@ This page is a quick reference to Markdown and kramdown. I have put *my* most-us
 
 Separate paragraphs with a blank line. For a line break within a paragraph, use two spaces or two backslashes at the end of a line. No spaces/backslashes, no line break.
 
-## Headings
+## Headers
 
-Simple: use hashes (\#) -- one \# for a top-level H1 heading, to six \###### for H6. Headings *must* be preceded by a blank line, except at the top of the page.
+Simple: use hashes (\#) -- one \# for a top-level H1 header, to six \###### for H6. Headers *must* be preceded by a blank line, except at the top of the page.
 
-###### Example: this is a lowest-level, H6 heading; more examples below
+###### Example: this is a lowest-level, H6 header; more examples below
 
 ## Emphasis
 
@@ -49,14 +49,14 @@ Start a line with `>` (and optional space). Every following line that starts wit
 
 # More examples
 
-## Headings
+## Headers
 
 (The two headings above are H1 and H2, respectively.)
 
-### Heading 3
+### Header 3
 
-#### Heading 4
+#### Header 4
 
-##### Heading 5
+##### Header 5
 
-###### Heading 6
+###### Header 6
