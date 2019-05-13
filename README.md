@@ -1,3 +1,3 @@
 # This is a GitHub Pages/Jekyll website 
 
-Go to the [website](www.gibbs.at)
+Go to the [website](https://www.gibbs.at)
