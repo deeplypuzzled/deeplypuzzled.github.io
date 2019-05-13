@@ -29,3 +29,5 @@ I used these guides in setting this up:
 * <a href="https://help.github.com/en/categories/github-pages-basics">GitHub's own help for GitHub Pages</a>
 * <a href="https://try.github.io/"><em>Resources to learn Git</em></a>
 * I will be using images. GitHub Pages focuses on text, so I found this guide on <a href="https://www.xaprb.com/blog/how-to-style-images-with-markdown/"><em>How to Style Images With Markdown</em></a> particularly useful.
+
+v2
