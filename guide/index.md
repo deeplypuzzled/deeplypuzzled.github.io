@@ -87,6 +87,13 @@ Here is some text with a footnote.[^1]
 
 [^1]: This is the footnote, with a link back to the text.
 
+## Abbreviations (a bit obscure?)
+
+If abbreviations are defined once, they apply to all instances on the page, so the definitions can be done last. Possibly an \_include could be used to make tthem global?
+
+`*[HTML]: Hyper Text Markup Language` The word HTML should have a dotted underline; now hover the cursor over it.
+[HTML]: Hyper Text Markup Language
+
 ## Tables (very simple)
 
 ~~~~
@@ -149,4 +156,4 @@ In each case, the variable is enclosed in double curly brackets, thus: \{\{ *var
 
 ###### Header 6
 
-v8.5
+v8.6
