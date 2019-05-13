@@ -39,7 +39,7 @@ Start a line with `>` (and optional space). Every following line that starts wit
 > This is the outer quote again.
 ~~~~
 
-(That was a code block, BTW, with a row of a few tildes (~) above and below it.)
+(That was a code block, BTW, with a row of a few tildes (~) above and below it. Highlighted code is also possible, by specifying a language abbreviation after the first row of tildes.)
 
 > A sample blockquote.
 >
@@ -49,21 +49,11 @@ Start a line with `>` (and optional space). Every following line that starts wit
 > ## Headers work too
 > This is the outer quote again.
 
-## Code with highlighting
+## Horizontal rules
 
-\~\~\~ html  
-`<div class="blurb">`  
-`	<h1>Hi.</h1>`  
-`	<p>This is my blog.</p>`  
-`</div><!-- /.blurb -->`  
-\~\~\~
+Use three or more asterisks, dashes or underscores (on their own).
 
-~~~ html
-<div class="blurb">
-	<h1>Hi.</h1>
-	<p>This is my blog.</p>
-</div><!-- /.blurb -->
-~~~
+***
 
 ## Variables
 
