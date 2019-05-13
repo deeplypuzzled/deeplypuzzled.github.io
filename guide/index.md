@@ -12,6 +12,8 @@ This page is a quick reference to Markdown and kramdown. I have put *my* most-us
 
 Separate paragraphs with a blank line. For a line break within a paragraph, use two spaces or two backslashes at the end of a line. No spaces/backslashes, no line break.
 
+HTML can be used freely alongside Markdown and plain text.
+
 ## Headers
 
 Simple: use hashes (\#) -- one \# for a top-level H1 header, to six \###### for H6. Headers *must* be preceded by a blank line, except at the top of the page.
@@ -157,4 +159,4 @@ In each case, the variable is enclosed in double curly brackets, thus: \{\{ *var
 
 ###### Header 6
 
-v8.8
+v8.9
