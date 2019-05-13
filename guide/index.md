@@ -16,4 +16,7 @@ Simple: use hashes (\#) -- one \# for a top-level H1 heading, to six \###### for
 
 For italics (light emphasis), use a single asterisk or underscore at start and end; for bold (strong emphasis), use two asterisks or underscores. 
 
-Example: \*italic\* &#8594; *italic*; \**bold\** &#8594; **bold**
+Example: \*italic\* &#8594; *italic*; \*\*bold\*\* &#8594; **bold**
+\*\*\*bold italics\*\*\* &#8594; ***bold***
+\_\_underlined\_\_ &#8594; __underlined__
+
