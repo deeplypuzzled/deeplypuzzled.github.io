@@ -22,8 +22,16 @@ Simple: use hashes (\#) -- one \# for a top-level H1 header, to six \###### for 
 
 For italics (light emphasis), use a single asterisk or underscore at start and end; for bold (strong emphasis), use two asterisks or underscores. 
 
-Example: `*italic*` &#8594; *italic*; `**bold**` &#8594; **bold**; `***bold italics***` &#8594; ***bold italics***
+Examples:
+* `*italic*` &#8594; *italic* 
+* `**bold**` &#8594; **bold**
+* `***bold italics***` &#8594; ***bold italics***
+
 (BTW, underlining isn't part of Markdown, but can be implemented using inline CSS: `<span style="text-decoration:underline">underlined</span>`  &#8594; <span style="text-decoration:underline">underlined</span>.)
+
+## Links
+
+`[A link to my website](https://www.gibbs.at)` &#8594; [A link to my website](https://www.gibbs.at)
 
 ## Blockquotes (and code blocks)
 
@@ -86,17 +94,20 @@ In each case, the variable is enclosed in double curly brackets, thus: \{\{ *var
 
 * site &#8594; {{ site }}
 * page &#8594; (the whole page)
-* paginator &#8594; {{ paginator }}
 * site.time &#8594; {{ site.time }}
+* page.title &#8594; {{ page.title }}
+* page.url &#8594; {{ page.url }}
+* page.path &#8594; {{ page.path }}
+* page.dir &#8594; {{ page.dir }}
+
+### Variables used for blog pages
+
+* paginator &#8594; {{ paginator }}
 * site.pages &#8594; (404)
 * site.related_posts &#8594; {{ site.related_posts }}
 * site.static_files &#8594; {{ site.static_files }}
-* page.title &#8594; {{ page.title }}
-* page.url &#8594; {{ page.url }}
 * page.date &#8594; {{ page.date }}
 * page.id &#8594; {{ page.id }}
-* page.path &#8594; {{ page.path }}
-* page.dir &#8594; {{ page.dir }}
 * page.next &#8594; {{ page.next }}
 
 # More examples
@@ -113,4 +124,4 @@ In each case, the variable is enclosed in double curly brackets, thus: \{\{ *var
 
 ###### Header 6
 
-v8
+v8.2
