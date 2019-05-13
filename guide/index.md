@@ -52,10 +52,10 @@ Start a line with `>` (and optional space). Every following line that starts wit
 In each case, the variable is enclosed in double curly brackets, thus: \{\{ *variable_name* \}\}
 
 * site &#8594; {{ site }}
-* page &#8594; {{ page }}
+* page &#8594; (the whole page)
 * paginator &#8594; {{ paginator }}
 * site.time &#8594; {{ site.time }}
-* site.pages &#8594; {{ site.pages }}
+* site.pages &#8594; (404)
 * site.related_posts &#8594; {{ site.related_posts }}
 * site.static_files &#8594; {{ site.static_files }}
 * page.title &#8594; {{ page.title }}
@@ -80,4 +80,4 @@ In each case, the variable is enclosed in double curly brackets, thus: \{\{ *var
 
 ###### Header 6
 
-v7
+v7.1
