@@ -1,4 +1,37 @@
 name: deeplypuzzled
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+
+# DEFAULTS THAT CAN BE OVERRIDDEN
+# ===============================
 # The following elements are GitHub/Jekyll defaults
+# They are _intentionally_ commented out here,
+# but in theory they could be activated/edited
+
+# github: [metadata]
+# encoding: UTF-8
+# **kramdown options are at https://kramdown.gettalong.org/options.html**
+# kramdown:
+#   input: GFM
+#   hard_wrap: false
+# **future allows posts with future dates**
+# future: true
+# jailed: false
+# theme: jekyll-theme-primer
+# gfm_quirks: paragraph_end
+
+# DEFAULTS THAT CANNOT BE CHANGED
+# ===============================
+# The following GitHub/Jekyll defaults
+# will be overridden by the system.
+
+# lsi: false
+# safe: true
+# source: [your repo's top level directory]
+# incremental: false
+# highlighter: rouge
+# gist:
+#   noscript: false
+# kramdown:
+#   math_engine: mathjax
+#   syntax_highlighter: rouge
