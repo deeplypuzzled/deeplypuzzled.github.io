@@ -1,3 +1,4 @@
 name: Jeremy Gibbs
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+# The following elements are GitHub/Jekyll defaults
