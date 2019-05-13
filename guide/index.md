@@ -57,6 +57,7 @@ Start a line with `>` (and optional space). Every following line that starts wit
 	<p>This is my blog.</p>
 </div><!-- /.blurb -->
 ~~~`
+
 ~~~ html
 <div class="blurb">
 	<h1>Hi.</h1>
@@ -97,4 +98,4 @@ In each case, the variable is enclosed in double curly brackets, thus: \{\{ *var
 
 ###### Header 6
 
-v7.1
+v7.2
