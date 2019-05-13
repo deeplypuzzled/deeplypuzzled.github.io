@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Websites Launched"
+title: "Website Launched"
 date: 2019-05-11
 ---
 
