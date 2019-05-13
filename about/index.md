@@ -18,7 +18,7 @@ At the time of writing, all these are open source and/or free versions of servic
 * [GitHub](https://github.com/), the online/cloud version of Git (acquired by [Microsoft](https://blogs.microsoft.com/blog/2018/10/26/microsoft-completes-github-acquisition/) in 2018); it now calls itself a "software development platform"
 * [Git](https://git-scm.com/), the leading, unpretentious version control system
 
-I haven't yet worked out whether there is any opportunity for (or point in) using Javascript. However, I am [experimenting with Bootstrap](bootstrap_test.html).
+I haven't yet worked out whether there is any opportunity for (or point in) using Javascript. However, I am [experimenting with Bootstrap](../bootstrap_test.html).
 
 ## *Not* all my own work...
 
