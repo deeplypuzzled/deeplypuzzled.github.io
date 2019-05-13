@@ -57,7 +57,7 @@ Use three or more asterisks, dashes or underscores (on their own).
 
 ## Lists
 
-Either number each line, with a period after the number, or use an asterisk and a space.
+Either number each line, with a period after the number, or use an asterisk and a space. Lists can be nested by indenting with spaces or tabs.
 
 1. One
 2. Two
@@ -66,6 +66,19 @@ Either number each line, with a period after the number, or use an asterisk and 
 * Alpha
 * Bravo
 * Charlie
+
+## Tables (very simple)
+
+| Header1 | Header2 | Header3 |
+|:--------|:-------:|--------:|
+| cell1   | cell2   | cell3   |
+| cell4   | cell5   | cell6   |
+|----
+| cell1   | cell2   | cell3   |
+| cell4   | cell5   | cell6   |
+|=====
+| Foot1   | Foot2   | Foot3
+{: rules="groups"}
 
 ## Variables
 
@@ -100,4 +113,4 @@ In each case, the variable is enclosed in double curly brackets, thus: \{\{ *var
 
 ###### Header 6
 
-v7.2
+v8
