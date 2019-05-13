@@ -16,14 +16,36 @@ Separate paragraphs with a blank line. For a line break within a paragraph, use 
 
 Simple: use hashes (\#) -- one \# for a top-level H1 heading, to six \###### for H6. Headings *must* be preceded by a blank line, except at the top of the page.
 
-###### Example: this is a lowest-level, H6 heading
+###### Example: this is a lowest-level, H6 heading; more examples below
 
 ## Emphasis
 
 For italics (light emphasis), use a single asterisk or underscore at start and end; for bold (strong emphasis), use two asterisks or underscores. 
 
-Example: \*italic\* &#8594; *italic*; \*\*bold\*\* &#8594; **bold**; \*\*\*bold italics\*\*\* &#8594; ***bold italics***
+Example: `*italic*` &#8594; *italic*; `**bold**` &#8594; **bold**; `***bold italics***` &#8594; ***bold italics***
 (BTW, underlining isn't part of Markdown, but can be implemented using inline CSS: `<span style="text-decoration:underline">underlined</span>`  &#8594; <span style="text-decoration:underline">underlined</span>.)
+
+## Blockquotes
+
+Start a line with `>` (and optional space). Every following line that starts with `>` is included in that blockquote. Multiple `>`s afe nested.
+
+~~~~
+> A sample blockquote.
+>
+> >Nested blockquotes are
+> >also possible.
+>
+> ## Headers work too
+> This is the outer quote again.
+~~~~
+
+> A sample blockquote.
+>
+> >Nested blockquotes are
+> >also possible.
+>
+> ## Headers work too
+> This is the outer quote again.
 
 # More examples
 
