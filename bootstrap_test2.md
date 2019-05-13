@@ -28,16 +28,16 @@ It relies on the Bootstrap version of the default template.
     
 <ul class="nav nav-tabs">
   <li class="nav-item">
-    <a class="nav-link active" href="#">Active</a>
+    <a class="nav-link active" href="https://www.gibbs.at/">Home</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
+    <a class="nav-link" href="https://www.gibbs.at/about">About</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
+    <a class="nav-link" href="https://www.gibbs.at/guide">Guide</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+    <a class="nav-link disabled" href="https://www.gibbs.at/blog" tabindex="-1" aria-disabled="true">Blog</a>
   </li>
 </ul>
     
