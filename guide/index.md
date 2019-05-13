@@ -49,21 +49,22 @@ Start a line with `>` (and optional space). Every following line that starts wit
 
 ## Variables
 
-* `{{ site }}` &#8594; {{ site }}
-* `{{ page }}` &#8594; {{ page }}
-* `{{ paginator }}` &#8594; {{ paginator }}
-* `{{ site.time }}` &#8594; {{ site.time }}
-* `{{ site.pages }}` &#8594; {{ site.pages }}
-* `{{ site.related_posts }}` &#8594; {{ site.related_posts }}
-* `{{ site.static_files }}` &#8594; {{ site.static_files }}
-* `{{ page.title }}` &#8594; {{ page.title }}
-* `{{ page.url }}` &#8594; {{ page.url }}
-* `{{ page.date }}` &#8594; {{ page.date }}
-* `{{ page.id }}` &#8594; {{ page.id }}
-* `{{ page.path }}` &#8594; {{ page.path }}
-* `{{ page.dir }}` &#8594; {{ page.dir }}
-* `{{ page.next }}` &#8594; {{ page.next }}
-* `{{ page }}` &#8594; {{ page }}
+In each case, the variable is enclosed in double curly brackets, thus: \{\{ *variable_name* \}\}
+
+* site &#8594; {{ site }}
+* page &#8594; {{ page }}
+* paginator &#8594; {{ paginator }}
+* site.time &#8594; {{ site.time }}
+* site.pages &#8594; {{ site.pages }}
+* site.related_posts &#8594; {{ site.related_posts }}
+* site.static_files &#8594; {{ site.static_files }}
+* page.title &#8594; {{ page.title }}
+* page.url &#8594; {{ page.url }}
+* page.date &#8594; {{ page.date }}
+* page.id &#8594; {{ page.id }}
+* page.path &#8594; {{ page.path }}
+* page.dir &#8594; {{ page.dir }}
+* page.next &#8594; {{ page.next }}
 
 # More examples
 
@@ -78,3 +79,5 @@ Start a line with `>` (and optional space). Every following line that starts wit
 ##### Header 5
 
 ###### Header 6
+
+v7
