@@ -1,5 +1,5 @@
 ---
-layout: bootstrap
+layout: default
 title: About
 ---
 # About this website
