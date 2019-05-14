@@ -1,5 +1,5 @@
 ---
-layout: bootstrap
+layout: default
 title: Guide
 ---
 # Guide to Markdown and kramdown
