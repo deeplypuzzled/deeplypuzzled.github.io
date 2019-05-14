@@ -42,8 +42,8 @@ Examples:
 
 kramdown allows attributes to be appended:
 
-`![Kitten](/assets/images/kitten-550x825.jpg "A kitten"){: width=150 height=100 style="float:right; padding:16px"}`
-![Kitten](/assets/images/kitten-550x825.jpg "A kitten"){: width=150 height=100 style="float:right; padding:16px"}
+`![Kitten](/assets/images/kitten-550x825.jpg "A kitten"){: width="150" height="100" style="float:right; padding:16px"}`
+![Kitten](/assets/images/kitten-550x825.jpg "A kitten"){: width="150" height="100" style="float:right; padding:16px"}
 
 ## Blockquotes (and code blocks)
 
@@ -169,4 +169,4 @@ In each case, the variable is enclosed in double curly brackets, thus: \{\{ *var
 
 ###### Header 6
 
-v8.9
+v9
