@@ -35,6 +35,16 @@ Examples:
 
 `[A link to my website](https://www.gibbs.at)` &#8594; [A link to my website](https://www.gibbs.at)
 
+## Pictures
+
+`![Kitten](/assets/images/kitten-550x825.jpg "A kitten")` *(alt test in square brackets, title after URL)*
+![Kitten](/assets/images/kitten-550x825.jpg "A kitten")
+
+kramdown allows attributes to be appended:
+
+`![Kitten](/assets/images/kitten-550x825.jpg "A kitten"){: width=150 height=100 style="float:right; padding:16px"}`
+![Kitten](/assets/images/kitten-550x825.jpg "A kitten"){: width=150 height=100 style="float:right; padding:16px"}
+
 ## Blockquotes (and code blocks)
 
 Start a line with `>` (and optional space). Every following line that starts with `>` is included in that blockquote. Multiple `>`s are nested.
