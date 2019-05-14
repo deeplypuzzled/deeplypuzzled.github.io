@@ -18,6 +18,7 @@ permalink: /blog/:year/:month/:day/:title
 # future: true
 # jailed: false
 # theme: jekyll-theme-primer
+theme: minima
 # gfm_quirks: paragraph_end
 
 # DEFAULTS THAT CANNOT BE CHANGED
