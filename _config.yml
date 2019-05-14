@@ -1,4 +1,6 @@
 name: deeplypuzzled
+title: deeplypuzzled's website
+description: a GitHub Pages/Jekyll static website
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 theme: jekyll-theme-slate
