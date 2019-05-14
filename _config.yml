@@ -1,6 +1,7 @@
 name: deeplypuzzled
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+theme: jekyll-theme-slate
 
 # DEFAULTS THAT CAN BE OVERRIDDEN
 # ===============================
@@ -17,8 +18,7 @@ permalink: /blog/:year/:month/:day/:title
 # **future allows posts with future dates**
 # future: true
 # jailed: false
-# theme: jekyll-theme-primer
-theme: jekyll-theme-minimal
+# theme: jekyll-theme-primer ***OVERRIDDEN ABOVE***
 # gfm_quirks: paragraph_end
 
 # DEFAULTS THAT CANNOT BE CHANGED
