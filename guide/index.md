@@ -1,6 +1,6 @@
 ---
 layout: bootstrap
-title: Guide to Markdown and kramdown
+title: Guide
 ---
 # Guide to Markdown and kramdown
 
