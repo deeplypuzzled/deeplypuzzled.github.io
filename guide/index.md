@@ -33,22 +33,23 @@ Examples:
 
 ## Links
 
-`[A link to my website](https://www.gibbs.at)` &#8594; [A link to my website](https://www.gibbs.at)
+*Code:* `[A link to my website](https://www.gibbs.at)` &#8594; [A link to my website](https://www.gibbs.at)
 
 ## Pictures
 
-`![Kitten](/assets/images/kitten-550x825.jpg "A kitten")` *(alt test in square brackets, title after URL)*
+*Code:* `![Kitten](/assets/images/kitten-550x825.jpg "A kitten")` *(alt test in square brackets, title after URL)*
 ![Kitten](/assets/images/kitten-550x825.jpg "A kitten")
 
 kramdown allows attributes to be appended:
 
-`![Kitten](/assets/images/kitten-550x825.jpg "A kitten"){: width="150" height="100" style="float:right; padding:16px"}`
-![Kitten](/assets/images/kitten-550x825.jpg "A kitten"){: width="150" height="100" style="float:right; padding:16px"}
+![Kitten](/assets/images/kitten-550x825.jpg "A kitten"){: width="100" height="150" style="float:right; padding:16px"}
+*Code:* `![Kitten](/assets/images/kitten-550x825.jpg "A kitten"){: width="100" height="150" style="float:right; padding:16px"}`
 
 ## Blockquotes (and code blocks)
 
 Start a line with `>` (and optional space). Every following line that starts with `>` is included in that blockquote. Multiple `>`s are nested.
 
+*Code:* 
 ~~~~
 > A sample blockquote.
 >
@@ -89,6 +90,7 @@ Either number each line, with a period after the number, or use an asterisk and 
 
 ## Footnotes
 
+*Code:* 
 ~~~~
 Here is some text with a footnote.[^1]
 
@@ -103,12 +105,13 @@ Here is some text with a footnote.[^1]
 
 If abbreviations are defined once, they apply to all instances on the page, so the definitions can be done last. Possibly an \_include could be used to make tthem global?
 
-`*[HTML]: Hyper Text Markup Language` The word HTML should have a dotted underline; now hover the cursor over it.
+*Code:* `*[HTML]: Hyper Text Markup Language` The word HTML should have a dotted underline; now hover the cursor over it.
 
 *[HTML]: Hyper Text Markup Language
 
 ## Tables (very simple)
 
+*Code:* 
 ~~~~
 | Header1 | Header2 | Header3 |
 |:--------|:-------:|--------:|
