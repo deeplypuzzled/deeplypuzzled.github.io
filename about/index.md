@@ -55,6 +55,8 @@ This is partly documented in the guides mentioned above, but the other component
 * The pages themselves, starting with `index.html` in the `master` branch, though most pages are .md/Markdown files, which Jekyll translates into .html/HTML
 * I set up a custom domain at a very early stage.
 
+In GitHub setup, there's a **gotcha**. As you will know if you have followed [Jonathan McGlone's (excellent) guide](creating), you can set up a custom domain name for your GitHub Pages site. I use [www,gibbs.at] instead of (as well as) [deeplypuzzled.github.io]. You need some basic DNS for this, in your domain name setup. Start on the website of the domain registrar from which you bought (rented) the domain name. As I discovered by trial and error, [gibbs.at] doesn't work. The `www` in front is not optional.
+
 ## TO-DO
 * I haven't yet worked out whether there is any opportunity for (or point in) using Javascript...
 * ...but I am [experimenting with Bootstrap](https://www.gibbs.at/bootstrap_test.html) with [Bootstrap](https://getbootstrap.com/) (**v4**) ([tutorial](https://www.w3schools.com/bootstrap4/default.asp)).
@@ -66,4 +68,4 @@ This is partly documented in the guides mentioned above, but the other component
 * Maybe I'll install Ruby and the Jekyll gem (etc) locally, later.
 * Maybe I'll have a `development` branch later.
 
-v5
+v5.1
