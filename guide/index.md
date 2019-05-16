@@ -70,6 +70,10 @@ Start a line with `>` (and optional space). Every following line that starts wit
 > ## Headers work too
 > This is the outer quote again.
 
+### Inline code
+
+You can also have `inline code` within normal text. Enclose code in \` (backticks/left single inverted commas).
+
 ## Horizontal rules
 
 Use three or more asterisks, dashes or underscores (on their own).
@@ -172,4 +176,4 @@ In each case, the variable is enclosed in double curly brackets, thus: \{\{ *var
 
 ###### Header 6
 
-v9
+v2019051601
