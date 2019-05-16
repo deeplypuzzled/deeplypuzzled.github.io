@@ -33,7 +33,7 @@ Browser options include:
 * Chinese-owned Opera (2%-3%)
 * Others (2%-6% combined)
 
-[^2]: October/November 2019 [(source)](https://en.wikipedia.org/wiki/Usage_share_of_web_browsers#Summary_tables)
+[^2]: October/November 2018 [(source)](https://en.wikipedia.org/wiki/Usage_share_of_web_browsers#Summary_tables)
 
 [**Firefox**](https://www.mozilla.org/firefox/new/) is my choice. It's not proprietary. Mozilla has no commercial axe to grind. It's open source and actively developed, with many available add-ons.
 
@@ -104,4 +104,4 @@ Finally -- for now -- you should be using a different password for every site yo
 
 The solution is a password manager, such as [LastPass](https://www.lastpass.com/) (there's a free version that's good enough for most people). This is software that creates a different, long password for every site, then remembers it for you and fills it in when you visit each website. You still need to remember one "master" password, to unlock the password manager itself. (An ideal "master" password is [five or more unconnected words](https://xkcd.com/936/).
 
-v2019051607
+v2019051608
