@@ -3,16 +3,13 @@ layout: post
 title: "Browsing safely"
 date: 2019-05-16
 ---
-
-# Browsing safely
-
 This post describes how I have set up my computer and software to minimise my footprint on the Internet and make it more useable, most of the time. *This guide covers desktop and laptop computers, not tablets and phones.*
 
 **Disclaimer:** your mileage may vary, I am not a lawyer (or a specialist in anything in particular), I don't work with anything very secret (except my own personal information), do your own research, don't blame me.
 
 **Caution:** some of this will break stuff, in the sense that it will stop some "clever" stuff on the Interweb working on your computer and/or in your browser. *That's the point!* -- lots of the "clever" stuff, especially scripts, is there to track you, show ads etc.
 
-**Tradeoffs:** you'll have to do some work to set this up, and doing some things on the Internet will be a bit more complicated. Buying things online, for example. Also, some very good websites depend on advertising to cover their costs: are you OK with taking the bread from their mouths? But you are giving them and their advertisers some (or a lot) of personal information, as the price of admission: are you OK with that. As with so many things in life, you have to work out your own answers to questiins like these.
+**Tradeoffs:** you'll have to do some work to set this up, and doing some things on the Internet will be a bit more complicated. Buying things online, for example. Also, some very good websites depend on advertising to cover their costs: are you OK with taking the bread from their mouths? But you are giving them and their advertisers some (or a lot of) personal information, as the price of admission: are you OK with that? As with so many things in life, you have to work out your own answers to questions like these. Also, some security precautions will make your browser faster (not loading unwanted content saves time), but some of them will make it seem slower (not prefetching linked pages before you click on the links means that the browser only asks for the content when you actually click, but this protects your personal information because the add-on filters links that you click).
 
 ## Basic setup
 
@@ -59,17 +56,31 @@ The first two of these can be used on an install-and-forget basis, but they are 
 
 ### Configuring the add-ons
 
+#### uBlock Origin
 
 
-### Other add-ns
+
+#### Decentraleyes
+
+
+
+#### uMatrix
+
+
+
+### Other add-ons
 
 ### While you're in the mood...
 
 **Warning:** you probably know this already, but most virus infections start with clicking on a link in an email. It looks oh-so-plausible!
 
-### Online services
+## Online services
 
 
-### Password manager
+## Password manager
+
+
+
+## VPN
 
 v2019051605
