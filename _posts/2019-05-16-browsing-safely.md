@@ -3,13 +3,13 @@ layout: post
 title: "Browsing safely"
 date: 2019-05-16
 ---
-This post describes how I have set up my computer and software to minimise my footprint on the Internet and make it more useable, most of the time. *This guide covers desktop and laptop computers, not tablets and phones.*
+This post describes how I have set up my computer and software for safety. My aim was to minimise my footprint on the Internet and make it more useable, most of the time. *This guide covers desktop and laptop computers, not tablets and phones.*
 
-**Disclaimer:** your mileage may vary, I am not a lawyer (or a specialist in anything in particular), I don't work with anything very secret (except my own personal information), do your own research, don't blame me.
+**Disclaimers:** yYour mileage may vary. I am not a lawyer  (or a specialist in anything in particular). I don't work with anything  very secret (except my own personal information),. Do your own research, Don't blame me!
 
-**Caution:** some of this will break stuff, in the sense that it will stop some "clever" stuff on the Interweb working on your computer and/or in your browser. *That's the point!* -- lots of the "clever" stuff, especially scripts, is there to track you, show ads etc.
+**Caution:** Some "clever" stuff on the Interweb will stop working on your  computer and/or in your browser. *That's the point!* -- lots of the "clever" stuff, especially scripts, is there to track you, show ads etc.
 
-**Tradeoffs:** you'll have to do some work to set this up, and doing some things on the Internet will be a bit more complicated. Buying things online, for example. Also, some very good websites depend on advertising to cover their costs: are you OK with taking the bread from their mouths? But you are giving them and their advertisers some (or a lot of) personal information, as the price of admission: are you OK with that? As with so many things in life, you must work out your own answers to questions like these. Also, some security precautions will make your browser faster (not loading unwanted content saves time), but some of them will make it seem slower (not prefetching linked pages before you click on the links means that the browser only asks for the content when you actually click, but this protects your personal information because the add-on filters links that you click).
+**Tradeoffs:** You'll have to do some work to set this up. Doing some things on the Internet will be a bit more  complicated. Buying things online, for example. Also, some very good  websites depend on advertising to cover their costs. Are you OK with  taking the bread from their mouths? If not, you are giving them and their  advertisers some (or a lot of) personal information. Some say, that's the price of  admission. Are you OK with that? As with so many things in life, you  must work out your own answers to questions like these. Also, some  security precautions will make your browser faster. (Not loading unwanted  content saves time.) But some of them will make it seem slower. (Not  prefetching linked pages before you click on the links means that the  browser only asks for the content when you actually click. But this  protects your personal information, because the add-on filters links that you click.)
 
 # Basic setup
 
@@ -35,22 +35,22 @@ Browser options include:
 
 [^2]: October/November 2019 [(source)](https://en.wikipedia.org/wiki/Usage_share_of_web_browsers#Summary_tables)
 
-[**Firefox**](https://www.mozilla.org/firefox/new/) is my choice: not proprietary, no commercial axe to grind, open source, actively developed with many available add-ons.
+[**Firefox**](https://www.mozilla.org/firefox/new/) is my choice. It's not proprietary. Mozilla has no commercial axe to grind. It's open source and actively developed, with many available add-ons.
 
 ## Choosing a search engine
 
-The next task is to avoid tracking of your searches. Google has 93% of the search market![^3] Microsoft's Bing and Yahoo! have most of the rest. DuckDuckGo gets a good press, but has irritating (to me) limitations; I use [**Startpage**](https://www.startpage.com).
+The next task is to avoid tracking of your searches. Google has 93% of the search market![^3] Microsoft's Bing and Yahoo! have most of the rest. DuckDuckGo gets a good press, but has irritating (to me) limitations. I use [**Startpage**](https://www.startpage.com).
 
 [^3]: February 2019 [(source)](https://en.wikipedia.org/wiki/Web_search_engine#Market_share_in_February_2019)
 
-When I can't avoid using a proprietary service -- for example, I have to log into Google for a particular service that is not available elsewhere -- I routinely log out as soon as I finish using it.
+When I can't avoid using a proprietary service, I routinely log out as soon as I finish using it. For example, I have to log into Google for a particular service that is not available elsewhere.
 
 ## Using browser add-ons to block unwanted content
 
-My objective is to minimise the information that I give away when visiting websites. But these free add-ons also reduce the amount of material downloaded, thus speeding up your browsing. Three Firefox add-ons help me to do this:
-* [uBlock Origin](https://addons.mozilla.org/en-GB/firefox/addon/ublock-origin/), an efficient blocker of ads and other unwanted stuff; also available for Chrome and Edge, and (possibly out-of-date) for Safari; by the excellent [Raymond Hill](https://github.com/gorhill)
-* [Decentraleyes](https://addons.mozilla.org/en-GB/firefox/addon/decentraleyes/) emulates Content Delivery Networks to improve online privacy [(details)](https://git.synz.io/Synzvato/decentraleyes/wikis/Simple-Introduction); also available for Chrome and Opera
-* [uMatrix](https://addons.mozilla.org/en-GB/firefox/addon/ublock-origin/), a firewall which works in relaxed block-all/allow-exceptionally mode out of the box: it is not unexpected that sites will break, so *this one is for advanced users*; also available for Chrome and Opera; also by [Raymond Hill](https://github.com/gorhill)
+My objective is to minimise the information that I give away when visiting websites. These free add-ons also speed up your browsing:
+* [uBlock Origin](https://addons.mozilla.org/en-GB/firefox/addon/ublock-origin/) An efficient blocker of ads and other unwanted stuff. Also available for Chrome and Edge, and (possibly out-of-date) for Safari. By the excellent [Raymond Hill](https://github.com/gorhill).
+* [Decentraleyes](https://addons.mozilla.org/en-GB/firefox/addon/decentraleyes/) Emulates Content Delivery Networks to improve online privacy [(details)](https://git.synz.io/Synzvato/decentraleyes/wikis/Simple-Introduction). Also available for Chrome and Opera.
+* [uMatrix](https://addons.mozilla.org/en-GB/firefox/addon/ublock-origin/) A firewall that works in relaxed block-all/allow-exceptionally mode out-of-the-box. Some sites will break, so *this one is for advanced users*. Also available for Chrome and Opera. Also by [Raymond Hill](https://github.com/gorhill).
 
 The first two of these can be used on an install-and-forget basis, but they are better with a little extra work. uMatrix requires more work, and it does more; as with all add-ons, you can always remove it if you don't like it.
 
@@ -58,7 +58,7 @@ The first two of these can be used on an install-and-forget basis, but they are 
 
 #### uBlock Origin
 
-**Simplest way:** install and forget. Read [this](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface). Short version: you can turn off uBO for the site you're looking at, and see it unmodified, though at the cost of switching off its protection. uBO will remember your decision.
+**Simplest way:** install and forget. Read [this](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface). Short version: you can turn off uBO for the site you're looking at, and see it unmodified, at the cost of switching off its protection. uBO will remember your decision.
 
 **Simple way:** in addition, consider [installing more filter lists](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists). 
 
@@ -100,8 +100,8 @@ There are many confusing recommendations for particular VPNs online. So-called "
 
 ## Password manager
 
-Finally -- for now -- you should be using a different password for every site you log in to. That is far too hard, so most people use one password everywhere. Even if it's a great, secure password, you only need one website to have a data breach, and suddenly your "great" password is a "terrible" password.
+Finally -- for now -- you should be using a different password for every site you log in to. That is far too hard, so most people use one password everywhere. Even if it's a great, secure password, you only need one website to have a data breach. Suddenly your "great" password is a "terrible" password.
 
 The solution is a password manager, such as [LastPass](https://www.lastpass.com/) (there's a free version that's good enough for most people). This is software that creates a different, long password for every site, then remembers it for you and fills it in when you visit each website. You still need to remember one "master" password, to unlock the password manager itself. (An ideal "master" password is [five or more unconnected words](https://xkcd.com/936/).
 
-v2019051606
+v2019051607
