@@ -18,15 +18,43 @@ This post describes how I have set up my computer and software to minimise my fo
 
 ### Operating system
 
-* **Windows** has nearly 90% of the installed base of desktops and laptops. If you're not on Windows 10, you should upgrade. Keeping up with all the security updates is a challenge, but it's not optional. The same applies to using Windows Defender for virus protection.
+* **Windows** has nearly 90% of the installed base of desktops and laptops.[^1] If you're not on Windows 10, you should upgrade. Keeping up with all the security updates is a challenge, but it's not optional. The same applies to using Windows Defender for virus protection.
 
 * If you have a **Mac**, chances are that you'll be using Apple's **macOS**. Mac users are often surpised to hear that Apple has less than 10% of the installed base. Keep macOS updated and upgraded and you'll mostly be OK. Antivirus software is available, but it may be overkill.
 
-* Of the other operating systems, only **Linux** (2%) has more than 0.3%. Use a LTS (long-term supprt) version aand update it regularly.
+* Of the other operating systems, only **Linux** (2%) has more than 0.3%. Use a LTS (long-term support) version and update it regularly.
+
+[^1]: February 2019 [(source)](https://en.wikipedia.org/wiki/Usage_share_of_operating_systems#Desktop_and_laptop_computers)
 
 ### Software and add-ons
 
-For the purpose of this guide, the key software is the web browser and its add-ons/extensions.
+For the purpose of this guide, the key software is the web browser and its add-ons/extensions, especially its search engine. 
+
+#### Choosing a web browser
+
+Browser options include:
+* Google's Chrome (64%-72% share)[^2]
+* Microsoft's Internet Explorer and Edge (together 7%-14%)
+* Mozilla's Firefox (7%-9%)
+* Apple's Safari (4%-14%)
+* Chinese-owned Opera (2%-3%)
+* Others (2%-6% combined)
+
+[^2]: October/November 2019 [(source)](https://en.wikipedia.org/wiki/Usage_share_of_web_browsers#Summary_tables)
+
+[**Firefox**](https://www.mozilla.org/firefox/new/) is my choice: not proprietary, no commercial axe to grind, open source, actively developed with many available add-ons.
+
+#### Web browser settings
+
+#### Choosing a search engine
+
+The next task is to avoid tracking of your searches. Google has 93% of the search market![^3] Microsoft's Bing and Yahoo! have most of the rest. DuckDuckGo gets a good press, but has irritating (to me) limitations; I use [**Startpage**](https://www.startpage.com).
+
+[^3]: February 2019 [(source)](https://en.wikipedia.org/wiki/Web_search_engine#Market_share_in_February_2019)
+
+When I can't avoid using a proprietary service -- for example, I have to log into Google for a particular service that is not available elsewhere -- I routinely log out as soon as I finish using it.
+
+#### 
 
 **Warning:** you probably know this already, but most virus infections start with clicking on a link in an email. It looks oh-so-plausible!
 
@@ -35,6 +63,6 @@ For the purpose of this guide, the key software is the web browser and its add-o
 
 ### Configuring software and add-ons
 
+### Password manager
 
-
-v2019051602
+v2019051604
