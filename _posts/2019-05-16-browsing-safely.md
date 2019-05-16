@@ -26,11 +26,7 @@ This post describes how I have set up my computer and software to minimise my fo
 
 [^1]: February 2019 [(source)](https://en.wikipedia.org/wiki/Usage_share_of_operating_systems#Desktop_and_laptop_computers)
 
-### Software and add-ons
-
-For the purpose of this guide, the key software is the web browser and its add-ons/extensions, especially its search engine. 
-
-#### Choosing a web browser
+### Choosing a web browser
 
 Browser options include:
 * Google's Chrome (64%-72% share)[^2]
@@ -44,9 +40,7 @@ Browser options include:
 
 [**Firefox**](https://www.mozilla.org/firefox/new/) is my choice: not proprietary, no commercial axe to grind, open source, actively developed with many available add-ons.
 
-#### Web browser settings
-
-#### Choosing a search engine
+### Choosing a search engine
 
 The next task is to avoid tracking of your searches. Google has 93% of the search market![^3] Microsoft's Bing and Yahoo! have most of the rest. DuckDuckGo gets a good press, but has irritating (to me) limitations; I use [**Startpage**](https://www.startpage.com).
 
@@ -54,15 +48,28 @@ The next task is to avoid tracking of your searches. Google has 93% of the searc
 
 When I can't avoid using a proprietary service -- for example, I have to log into Google for a particular service that is not available elsewhere -- I routinely log out as soon as I finish using it.
 
-#### 
+### Blocking unwanted content in the browser
+
+My objective is to minimise the information that I give away when visiting websites. But these free add-ons also reduce the amount of material downloaded, thus speeding up your browsing. Three Firefox add-ons help me to do this:
+* [uBlock Origin](https://addons.mozilla.org/en-GB/firefox/addon/ublock-origin/), an efficient blocker of ads and other unwanted stuff; also available for Chrome and Edge, and (possibly out-of-date) for Safari; by the excellent [Raymond Hill](https://github.com/gorhill)
+* [Decentraleyes](https://addons.mozilla.org/en-GB/firefox/addon/decentraleyes/) emulates Content Delivery Networks to improve online privacy [(details)](https://git.synz.io/Synzvato/decentraleyes/wikis/Simple-Introduction); also available for Chrome and Opera
+* [uMatrix](https://addons.mozilla.org/en-GB/firefox/addon/ublock-origin/), a firewall which works in relaxed block-all/allow-exceptionally mode out of the box: it is not unexpected that sites will break, so *this one is for advanced users*; also available for Chrome and Opera; also by [Raymond Hill](https://github.com/gorhill)
+
+The first two of these can be used on an install-and-forget basis, but they are better with a little extra work. uMatrix requires more work, and it does more; as with all add-ons, you can always remove it if you don't like it.
+
+### Configuring the add-ons
+
+
+
+### Other add-ns
+
+### While you're in the mood...
 
 **Warning:** you probably know this already, but most virus infections start with clicking on a link in an email. It looks oh-so-plausible!
 
 ### Online services
 
 
-### Configuring software and add-ons
-
 ### Password manager
 
-v2019051604
+v2019051605
