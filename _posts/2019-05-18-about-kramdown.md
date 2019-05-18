@@ -120,6 +120,7 @@ end
 ## Math blocks
 
 (I don't use them, but they're rather wonderful!)
+
 *Code:*
 ~~~
 $$
