@@ -7,6 +7,13 @@ This quick post covers the extras provided by [kramdown](https://kramdown.gettal
 
 **kramdown** is a superset of Markdown. It does everything that Markdown does, plus some extras. The extras that are useful to me include:
 
+## Pretty text
+
+* `""` → "" (curly quotes)
+* `''` → '' (curly quotes)
+* `---` → --- (em-dash)
+* `--` → -- (en-dash)
+
 ## Footnotes
 
 This is a great way of keeping core text clear, and details accessible.
@@ -140,7 +147,7 @@ $$
 \end{align*}
 $$
 ~~~
-
+(...but for some reason it doesn't work?!)
 
 $$
 \begin{align*}
