@@ -9,7 +9,7 @@ This quick post covers the extras provided by [kramdown](https://kramdown.gettal
 
 * Code blocks, begun and ended with a line of several tilde `~` characters on their own:
 
-*Code:*
+*Code (using inline attribute list):*
 `~~~`
 ~~~
 def what?
@@ -19,9 +19,33 @@ end
 `{: .language-ruby}`
 `~~~`
 
+*Output:*
 ~~~
 def what?
   42
 end
 ~~~
 {: .language-ruby}
+
+
+*Output (using `ruby` after the initial tildes):*
+~~~ ruby
+def what?
+  42
+end
+~~~
+
+*Output (using `html` after the initial tildes):*
+~~~ html
+<html>
+  <p>Hello, world</p>
+</html>  
+~~~
+
+*Output (using `css` after the initial tildes):*
+~~~ css
+.center {
+  text-align: center;
+  color: red;
+}
+~~~
