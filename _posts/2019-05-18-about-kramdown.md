@@ -82,6 +82,7 @@ end
 | Footer row
 ~~~
 *Output:*
+
 |---
 | Default aligned | Left aligned | Center aligned | Right aligned
 |-|:-|:-:|-:
