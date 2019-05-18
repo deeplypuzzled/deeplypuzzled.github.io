@@ -7,7 +7,9 @@ This quick post covers the extras provided by [kramdown](https://kramdown.gettal
 
 **kramdown** is a superset of Markdown. It does everything that Markdown does, plus some extras. The extras that are useful to me include:
 
-* Code blocks, begun and ended with a line of several tilde `~` characters on their own:
+## Code blocks
+
+* ...begun and ended with a line of several tilde `~` characters on their own:
 
 *Code (using inline attribute list):*
 `~~~`
@@ -50,7 +52,8 @@ end
 }
 ~~~
 
-* Improved tables
+
+## Improved tables
 
 *Code: EITHER*
 ~~~
@@ -94,3 +97,43 @@ end
 | 2 line
 |===
 | Footer row
+
+## Math blocks
+
+(I don't use them, but they're rather wonderful!)
+*Code:*
+~~~ javascript
+$$
+\begin{align*}
+  & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
+  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
+  & (x_1, \ldots, x_n) \left( \begin{array}{ccc}
+      \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \\
+      \vdots & \ddots & \vdots \\
+      \phi(e_n, e_1) & \cdots & \phi(e_n, e_n)
+    \end{array} \right)
+  \left( \begin{array}{c}
+      y_1 \\
+      \vdots \\
+      y_n
+    \end{array} \right)
+\end{align*}
+$$
+~~~
+
+$$
+\begin{align*}
+  & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
+  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
+  & (x_1, \ldots, x_n) \left( \begin{array}{ccc}
+      \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \\
+      \vdots & \ddots & \vdots \\
+      \phi(e_n, e_1) & \cdots & \phi(e_n, e_n)
+    \end{array} \right)
+  \left( \begin{array}{c}
+      y_1 \\
+      \vdots \\
+      y_n
+    \end{array} \right)
+\end{align*}
+$$
