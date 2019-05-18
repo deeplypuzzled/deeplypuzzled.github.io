@@ -7,6 +7,21 @@ This quick post covers the extras provided by [kramdown](https://kramdown.gettal
 
 **kramdown** is a superset of Markdown. It does everything that Markdown does, plus some extras. The extras that are useful to me include:
 
+## Footnotes
+
+This is a great way of keeping core text clear, and details accessible.
+
+*Code:*
+`This is some text.[^1]. Other text.[^footnote].`
+`[^1]: Some footnote definition.`
+`[^footnote]: Another footnote`
+
+This is some text.[^1]. Other text.[^footnote].
+[^1]: Some footnote definition.
+[^footnote]: Another footnote
+
+*Numbering is sequential and doesn't depend on the labelse used in the code.*
+
 ## Code blocks
 
 * ...begun and ended with a line of several tilde `~` characters on their own:
