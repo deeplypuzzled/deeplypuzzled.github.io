@@ -28,21 +28,21 @@ end
 {: .language-ruby}
 
 
-*Output (using `ruby` after the initial tildes):*
+*Output (using* `ruby` *after the initial tildes):*
 ~~~ ruby
 def what?
   42
 end
 ~~~
 
-*Output (using `html` after the initial tildes):*
+*Output (using* `html` *after the initial tildes):*
 ~~~ html
 <html>
   <p>Hello, world</p>
 </html>  
 ~~~
 
-*Output (using `css` after the initial tildes):*
+*Output (using* `css` *after the initial tildes):*
 ~~~ css
 .center {
   text-align: center;
