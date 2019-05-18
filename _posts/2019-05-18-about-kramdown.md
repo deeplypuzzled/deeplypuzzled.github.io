@@ -19,7 +19,8 @@ This is some text.[^1]. Other text.[^footnote].
 ~~~
 
 *Output:*
-This is some text.[^1]. Other text.[^footnote].
+This is some text.[^1] Other text.[^footnote]
+
 [^1]: Some footnote definition.
 [^footnote]: Another footnote
 
