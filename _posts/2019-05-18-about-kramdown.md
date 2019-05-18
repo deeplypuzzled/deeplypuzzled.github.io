@@ -12,10 +12,13 @@ This quick post covers the extras provided by [kramdown](https://kramdown.gettal
 This is a great way of keeping core text clear, and details accessible.
 
 *Code:*
-`This is some text.[^1]. Other text.[^footnote].`
-`[^1]: Some footnote definition.`
-`[^footnote]: Another footnote`
+~~~
+This is some text.[^1]. Other text.[^footnote].
+[^1]: Some footnote definition.
+[^footnote]: Another footnote
+~~~
 
+*Output:*
 This is some text.[^1]. Other text.[^footnote].
 [^1]: Some footnote definition.
 [^footnote]: Another footnote
