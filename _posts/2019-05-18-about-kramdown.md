@@ -13,7 +13,7 @@ This is a great way of keeping core text clear, and details accessible.
 
 *Code:*
 ~~~
-This is some text.[^1]. Other text.[^footnote].
+This is some text.[^1] Other text.[^footnote]
 [^1]: Some footnote definition.
 [^footnote]: Another footnote
 ~~~
@@ -24,7 +24,7 @@ This is some text.[^1] Other text.[^footnote]
 [^1]: Some footnote definition.
 [^footnote]: Another footnote
 
-*Numbering is sequential and doesn't depend on the labelse used in the code.*
+*Numbering is sequential and doesn't depend on the labels used in the code. The footnotes can go anywhere in the document.*
 
 ## Code blocks
 
@@ -121,7 +121,7 @@ end
 
 (I don't use them, but they're rather wonderful!)
 *Code:*
-~~~ javascript
+~~~
 $$
 \begin{align*}
   & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
@@ -139,6 +139,7 @@ $$
 \end{align*}
 $$
 ~~~
+
 
 $$
 \begin{align*}
