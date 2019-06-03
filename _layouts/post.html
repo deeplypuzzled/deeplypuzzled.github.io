@@ -24,10 +24,10 @@ title: Blog
       {%- if page.author -%}
         &nbsp;•&nbsp;<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author | escape }}</span></span>
       {%- endif -%}
-      {% if page.underconstruction == 'yes' %}
-        <img src="/assets/images/pageunderconstruction.gif" alt="under construction" title="This page is under construction">
-      {% endif %}
     </p>
+    {% if page.underconstruction == 'yes' %}
+      <img src="/assets/images/pageunderconstruction.gif" alt="under construction" title="This page is under construction">
+    {% endif %}
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
