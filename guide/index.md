@@ -10,26 +10,26 @@ This page is a quick reference to Markdown and kramdown. I have put *my* most-us
 
 ## Basics
 
-Separate paragraphs with a blank line. For a line break within a paragraph, use two spaces or two backslashes at the end of a line. No spaces/backslashes, no line break.
+Separate paragraphs with a blank line. For a line break within a paragraph, use two spaces or two backslashes at the end of a line. *No spaces/backslashes: no line break.*
 
 HTML can be used freely alongside Markdown and plain text.
 
 ## Headers
 
-Simple: use hashes (\#) -- one \# for a top-level H1 header, to six \###### for H6. Headers *must* be preceded by a blank line, except at the top of the page.
+Simple: use hashes (`#`) -- one `#` for a top-level `<H1>` header, to six `######` for `<H6>`. Headers *must* be preceded by a blank line, except at the top of the page.
 
 ###### Example: this is a lowest-level, H6 header; more examples below
 
 ## Emphasis
 
-For italics (light emphasis), use a single asterisk or underscore at start and end; for bold (strong emphasis), use two asterisks or underscores. 
+For italics (light emphasis), use a single asterisk or underscore at start and end; for bold (strong emphasis), use two asterisks or underscores.
 
 Examples:
-* `*italic*` &#8594; *italic* 
+* `*italic*` &#8594; *italic*
 * `**bold**` &#8594; **bold**
 * `***bold italics***` &#8594; ***bold italics***
 
-(BTW, underlining isn't part of Markdown, but can be implemented using inline CSS: `<span style="text-decoration:underline">underlined</span>`  &#8594; <span style="text-decoration:underline">underlined</span>.)
+(BTW, underlining isn't part of Markdown, but can be implemented using inline CSS:\\`<span style="text-decoration:underline">underlined</span>`  &#8594; <span style="text-decoration:underline">underlined</span>.)
 
 ## Links
 
@@ -44,30 +44,31 @@ kramdown allows attributes to be appended:
 
 ![Kitten](/assets/images/kitten-550x825.jpg "A kitten"){: width="100" height="150" style="float:right; padding:16px"}
 *Code:* `![Kitten](/assets/images/kitten-550x825.jpg "A kitten"){: width="100" height="150" style="float:right; padding:16px"}`
+\\\\
 
 ## Blockquotes (and code blocks)
 
 Start a line with `>` (and optional space). Every following line that starts with `>` is included in that blockquote. Multiple `>`s are nested.
 
-*Code:* 
+*Code:*
 ~~~~
 > A sample blockquote.
 >
 > >Nested blockquotes are
 > >also possible.
 >
-> ## Headers work too
+> #### Headers work too
 > This is the outer quote again.
 ~~~~
 
-(That was a code block, BTW, with a row of a few tildes (~) above and below it. Highlighted code is also possible, by specifying a language abbreviation after the first row of tildes.)
+(That was a code block, BTW, with a row of a few tildes (`~~~`) above and below it. Highlighted code is also possible, by specifying a language abbreviation after the first row of tildes, e.g. `~~~ html`.)
 
 > A sample blockquote.
 >
 > >Nested blockquotes are
 > >also possible.
 >
-> ## Headers work too
+> #### Headers work too
 > This is the outer quote again.
 
 ### Inline code
@@ -76,25 +77,28 @@ You can also have `inline code` within normal text. Enclose code in \` (backtick
 
 ## Horizontal rules
 
-Use three or more asterisks, dashes or underscores (on their own).
+Use three or more asterisks, dashes or underscores (on their own). Formatting of the rule depends on the CSS for the page. \\
+*Code:* \\`***`
 
 ***
 
 ## Lists
 
-Either number each line, with a period after the number, or use an asterisk and a space. Lists can be nested by indenting with spaces or tabs.
+Either number each line, with a period after the number, or (for bullets) use an asterisk and a space. Lists can be nested by indenting with spaces or tabs.
 
 1. One
 2. Two
+  2.1 sub-item
 3. Three
 
 * Alpha
 * Bravo
+  * sub-item
 * Charlie
 
 ## Footnotes
 
-*Code:* 
+*Code:*
 ~~~~
 Here is some text with a footnote.[^1]
 
@@ -115,7 +119,7 @@ If abbreviations are defined once, they apply to all instances on the page, so t
 
 ## Tables (very simple)
 
-*Code:* 
+*Code:*
 ~~~~
 | Header1 | Header2 | Header3 |
 |:--------|:-------:|--------:|
@@ -164,7 +168,7 @@ In each case, the variable is enclosed in double curly brackets, thus: \{\{ *var
 
 # More examples
 
-## Headers
+## Headers (more examples)
 
 (The two headings above are H1 and H2, respectively.)
 
@@ -176,4 +180,4 @@ In each case, the variable is enclosed in double curly brackets, thus: \{\{ *var
 
 ###### Header 6
 
-v2019051601
+v2019060301
