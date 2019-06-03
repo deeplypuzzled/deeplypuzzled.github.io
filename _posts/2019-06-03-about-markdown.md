@@ -9,7 +9,7 @@ This post describes the features of [Markdown](https://daringfireball.net/projec
 
 Markdown is a simple set of markup (ho-ho) codes. Added to plain text, these codes cue processing to implement HTML formatting of the text. The codes are designed to be easy to write, and to read. Processing is handled by Markdown's Perl software.
 
-Since Markdown is so central to this text-based website, it has its own [Guide page](guide).
+Since Markdown is so central to this text-based website, it has its own [Guide page](/guide).
 
 ## Crib sheets and sources
 
