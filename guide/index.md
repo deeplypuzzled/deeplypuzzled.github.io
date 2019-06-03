@@ -140,7 +140,7 @@ Here is some text with a footnote.[^1]
 ## Variables
 
 In each case, the variable is enclosed in double curly brackets:\\
-`{{ *variable_name* }}`
+`\{\{ *variable_name* \}\}`
 
 * site &#8594; {{ site }}
 * page &#8594; (the whole page)
@@ -174,4 +174,4 @@ In each case, the variable is enclosed in double curly brackets:\\
 
 ###### Header 6
 
-v2019060304
+v2019060305
