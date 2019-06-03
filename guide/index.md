@@ -44,9 +44,9 @@ kramdown allows attributes to be appended:
 
 ![Kitten](/assets/images/kitten-550x825.jpg "A kitten"){: width="100" height="150" style="float:right; padding:16px"}
 *Code:* `![Kitten](/assets/images/kitten-550x825.jpg "A kitten"){: width="100" height="150" style="float:right; padding:16px"}`
-\\
-\\
-\\
+
+<p />
+<p />
 
 ## Blockquotes (and code blocks)
 
@@ -110,15 +110,7 @@ Here is some text with a footnote.[^1]
 
 [^1]: This is the footnote, with a link back to the text.
 
-## Abbreviations (a bit obscure?)
-
-If abbreviations are defined once, they apply to all instances on the page, so the definitions can be done last. Possibly an \_include could be used to make tthem global?
-
-*Code:* `[HTML]: Hyper Text Markup Language` The word HTML should have a dotted underline; now hover the cursor over it.
-
-[HTML]: Hyper Text Markup Language
-
-## Tables (very simple)
+## Simple tables
 
 *Code:*
 ~~~~
@@ -147,7 +139,8 @@ If abbreviations are defined once, they apply to all instances on the page, so t
 
 ## Variables
 
-In each case, the variable is enclosed in double curly brackets, thus: \{\{ *variable_name* \}\}
+In each case, the variable is enclosed in double curly brackets:\\
+`{{ *variable_name* }}`
 
 * site &#8594; {{ site }}
 * page &#8594; (the whole page)
@@ -181,4 +174,4 @@ In each case, the variable is enclosed in double curly brackets, thus: \{\{ *var
 
 ###### Header 6
 
-v2019060303
+v2019060304
