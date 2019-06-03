@@ -61,7 +61,7 @@ Start a line with `>` (and optional space). Every following line that starts wit
 > This is the outer quote again.
 ~~~~
 
-(That was a code block, BTW, with a row of a few tildes (`~~~`) above and below it. Highlighted code is also possible, by specifying a language abbreviation after the first row of tildes, e.g. `~~~ html`.)
+(That was a code block, BTW, with a row of a few tildes (`~~~`) above and below it. Highlighted code is also possible, by specifying a language abbreviation at the end of the first row of tildes, e.g. `~~~ html`.)
 
 > A sample blockquote.
 >
@@ -78,7 +78,8 @@ You can also have `inline code` within normal text. Enclose code in \` (backtick
 ## Horizontal rules
 
 Use three or more asterisks, dashes or underscores (on their own). Formatting of the rule depends on the CSS for the page. \\
-*Code:* \\`***`
+*Code:* \\
+`***`
 
 ***
 
@@ -88,12 +89,10 @@ Either number each line, with a period after the number, or (for bullets) use an
 
 1. One
 2. Two
-  2.1 sub-item
 3. Three
 
 * Alpha
 * Bravo
-  * sub-item
 * Charlie
 
 ## Footnotes
@@ -113,9 +112,9 @@ Here is some text with a footnote.[^1]
 
 If abbreviations are defined once, they apply to all instances on the page, so the definitions can be done last. Possibly an \_include could be used to make tthem global?
 
-*Code:* `*[HTML]: Hyper Text Markup Language` The word HTML should have a dotted underline; now hover the cursor over it.
+*Code:* `[HTML]: Hyper Text Markup Language` The word HTML should have a dotted underline; now hover the cursor over it.
 
-*[HTML]: Hyper Text Markup Language
+[HTML]: Hyper Text Markup Language
 
 ## Tables (very simple)
 
@@ -180,4 +179,4 @@ In each case, the variable is enclosed in double curly brackets, thus: \{\{ *var
 
 ###### Header 6
 
-v2019060301
+v2019060303
