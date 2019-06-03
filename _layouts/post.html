@@ -13,12 +13,12 @@ title: Blog
           <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
             Last updated on: {{ page.last_modified_at | date: date_format }}
           </time>
-          <br />
+          <br />Originally published:&nbsp;
         {%- else -%}
             <!--Last updated on: {{ page.date | date: date_format }}-->
         {%- endif -%}
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-            Originally published: {{ page.date | date: date_format }}
+            {{ page.date | date: date_format }}
       </time>
       </em>
       {%- if page.author -%}
