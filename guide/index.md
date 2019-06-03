@@ -4,7 +4,7 @@ title: Guide
 pageunderconstruction: true
 ---
 {% if pageunderconstruction == true %}
-  ![pageunderconstruction](/assets/images/pageunderconstruction "This page is under construction")
+  ![pageunderconstruction](/assets/images/pageunderconstruction.gif "This page is under construction")
 {% endif %}
 
 # Guide to Markdown and kramdown
@@ -180,5 +180,5 @@ In each case, the variable is enclosed in double curly brackets:\\
 
 ###### Header 6
 
-v2019060309
+v2019060310
 {{site.time}}
