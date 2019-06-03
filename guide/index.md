@@ -45,8 +45,9 @@ kramdown allows attributes to be appended:
 ![Kitten](/assets/images/kitten-550x825.jpg "A kitten"){: width="100" height="150" style="float:right; padding:16px"}
 *Code:* `![Kitten](/assets/images/kitten-550x825.jpg "A kitten"){: width="100" height="150" style="float:right; padding:16px"}`
 
-<p />
-<p />
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
 ## Blockquotes (and code blocks)
 
@@ -174,5 +175,5 @@ In each case, the variable is enclosed in double curly brackets:\\
 
 ###### Header 6
 
-v2019060307
+v2019060308
 {{site.time}}
