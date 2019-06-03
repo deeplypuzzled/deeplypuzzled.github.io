@@ -16,23 +16,23 @@ title: Blog
             Last updated: {{ page.date | date: date_format }}
         {%- endif -%}
       </time>
+    </p>
+    <p class="post-meta">
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+            Originally published on: {{ page.date | date: date_format }}
+      </time>
       {%- if page.author -%}
         &nbsp;•&nbsp;<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author | escape }}</span></span>
       {%- endif -%}
       {% if page.underconstruction == 'yes' %}
-        ![pageunderconstruction](/assets/images/pageunderconstruction.gif "This page is under construction")
+        <img src="/assets/images/pageunderconstruction.gif" alt="under construction" title="This page is under construction">
       {% endif %}
+    </p>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
-
-  <p class="post-meta">
-    <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        Originally published on: {{ page.date | date: date_format }}
-      </time>
-  </p>
 
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
