@@ -2,11 +2,12 @@
 layout: post
 title: "Browsing safely"
 date: 2019-05-16
+last_modified_at: 2019-06-03
 underconstruction: 'no'
 ---
 This post describes how I have set up my computer and software for safety. My aim was to minimise my footprint on the Internet and make it more useable, most of the time. *This guide covers desktop and laptop computers, not tablets and phones.*
 
-**Disclaimers:** yYour mileage may vary. I am not a lawyer  (or a specialist in anything in particular). I don't work with anything  very secret (except my own personal information),. Do your own research, Don't blame me!
+**Disclaimers:** Your mileage may vary. I am not a lawyer  (or a specialist in anything in particular). I don't work with anything  very secret (except my own personal information),. Do your own research, Don't blame me!
 
 **Caution:** Some "clever" stuff on the Interweb will stop working on your  computer and/or in your browser. *That's the point!* -- lots of the "clever" stuff, especially scripts, is there to track you, show ads etc.
 
