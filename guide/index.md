@@ -1,7 +1,12 @@
 ---
 layout: default
 title: Guide
+pageunderconstruction: true
 ---
+{% if pageunderconstruction == true %}
+  ![pageunderconstruction](/assets/images/pageunderconstruction "This page is under construction")
+{% endif %}
+
 # Guide to Markdown and kramdown
 
 This page is a quick reference to Markdown and kramdown. I have put *my* most-used features at the top, with more-complex elements lower down. I have left out obscure and little-used (by me) features, and other ways of doing the same thing -- that's what the docs are for! Examples are included.
@@ -175,5 +180,5 @@ In each case, the variable is enclosed in double curly brackets:\\
 
 ###### Header 6
 
-v2019060308
+v2019060309
 {{site.time}}
