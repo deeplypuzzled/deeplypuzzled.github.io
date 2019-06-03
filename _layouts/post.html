@@ -2,10 +2,6 @@
 layout: default
 title: Blog
 ---
-{% if page.underconstruction == 'yes' %}
-  ![pageunderconstruction](/assets/images/pageunderconstruction.gif "This page is under construction")
-{% endif %}
-
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
@@ -23,6 +19,9 @@ title: Blog
       {%- if page.author -%}
         &nbsp;•&nbsp;<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author | escape }}</span></span>
       {%- endif -%}
+      {% if page.underconstruction == 'yes' %}
+        ![pageunderconstruction](/assets/images/pageunderconstruction.gif "This page is under construction")
+      {% endif %}
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">

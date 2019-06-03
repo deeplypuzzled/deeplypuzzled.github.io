@@ -42,7 +42,7 @@ Examples:
 
 ## Pictures
 
-*Code:* `![Kitten](/assets/images/kitten-550x825.jpg "A kitten")` *(alt test in square brackets, title after URL)*
+*Code:* `![Kitten](/assets/images/kitten-550x825.jpg "A kitten")` *(alt text in square brackets, title after URL)*
 ![Kitten](/assets/images/kitten-550x825.jpg "A kitten")
 
 kramdown allows attributes to be appended:
