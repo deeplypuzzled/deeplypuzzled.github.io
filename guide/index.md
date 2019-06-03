@@ -174,4 +174,5 @@ In each case, the variable is enclosed in double curly brackets:\\
 
 ###### Header 6
 
-v2019060305
+v2019060306
+{{site.time}}
