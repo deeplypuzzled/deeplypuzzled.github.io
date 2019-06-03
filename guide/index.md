@@ -10,8 +10,7 @@ underconstruction: yes
 # Guide to Markdown and kramdown
 
 {% if page.title == 'Guide' %}
-  **HELLO, WORLD!**
-{% endif %}
+  ![pageunderconstruction](/assets/images/pageunderconstruction.gif "This page is under construction"){% endif %}
 
 This page is a quick reference to Markdown and kramdown. I have put *my* most-used features at the top, with more-complex elements lower down. I have left out obscure and little-used (by me) features, and other ways of doing the same thing -- that's what the docs are for! Examples are included.
 
@@ -184,5 +183,5 @@ In each case, the variable is enclosed in double curly brackets:\\
 
 ###### Header 6
 
-v2019060313  
+v2019060314  
 {{site.time}}
