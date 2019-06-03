@@ -2,6 +2,8 @@
 layout: post
 title: "Browsing safely"
 date: 2019-05-16
+last_modified_at: 
+underconstruction: 'no'
 ---
 This post describes how I have set up my computer and software for safety. My aim was to minimise my footprint on the Internet and make it more useable, most of the time. *This guide covers desktop and laptop computers, not tablets and phones.*
 
@@ -60,7 +62,7 @@ The first two of these can be used on an install-and-forget basis, but they are 
 
 **Simplest way:** install and forget. Read [this](https://github.com/gorhill/uBlock/wiki/Quick-guide:-popup-user-interface). Short version: you can turn off uBO for the site you're looking at, and see it unmodified, at the cost of switching off its protection. uBO will remember your decision.
 
-**Simple way:** in addition, consider [installing more filter lists](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists). 
+**Simple way:** in addition, consider [installing more filter lists](https://github.com/gorhill/uBlock/wiki/Dashboard:-Filter-lists).
 
 **Expert way:** turn on uBO's [advanced user mode](https://github.com/gorhill/uBlock/wiki/Advanced-user-features) and use its full power.
 

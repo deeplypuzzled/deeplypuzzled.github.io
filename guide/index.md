@@ -1,12 +1,9 @@
 ---
 layout: default
 title: Guide
-underconstruction: yes
+last_modified_at: 2019-06-03 13:36:00 +0000
+underconstruction: 'yes'
 ---
-{% if page.underconstruction == 'yes' %}
-  ![pageunderconstruction](/assets/images/pageunderconstruction.gif "This page is under construction")
-{% endif %}
-
 # Guide to Markdown and kramdown
 
 {% if page.title == 'Guide' %}
