@@ -3,7 +3,6 @@ layout: post
 title: "About Markdown"
 author: "JSG"
 date: 2019-06-03
-last_modified_at:
 underconstruction: 'yes'
 ---
 This post describes the features of [Markdown](https://daringfireball.net/projects/markdown/) *that I use*, including on this website. For full details, see sources, below.

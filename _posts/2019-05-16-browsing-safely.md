@@ -2,7 +2,6 @@
 layout: post
 title: "Browsing safely"
 date: 2019-05-16
-last_modified_at: 
 underconstruction: 'no'
 ---
 This post describes how I have set up my computer and software for safety. My aim was to minimise my footprint on the Internet and make it more useable, most of the time. *This guide covers desktop and laptop computers, not tablets and phones.*

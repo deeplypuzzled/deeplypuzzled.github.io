@@ -2,7 +2,6 @@
 layout: post
 title: "About kramdown"
 date: 2019-05-18
-last_modified_at: 
 underconstruction: 'no'
 ---
 This quick post covers the extras provided by [kramdown](https://kramdown.gettalong.org/) (*not* capitalised!), in addition to [Markdown](https://daringfireball.net/projects/markdown/).
