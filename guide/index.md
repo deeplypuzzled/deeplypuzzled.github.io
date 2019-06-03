@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Guide
-pageunderconstruction: true
+underconstruction: true
 ---
-{% if pageunderconstruction == true %}
+{% if page.underconstruction == 'true' %}
   ![pageunderconstruction](/assets/images/pageunderconstruction.gif "This page is under construction")
 {% endif %}
 
@@ -180,5 +180,5 @@ In each case, the variable is enclosed in double curly brackets:\\
 
 ###### Header 6
 
-v2019060310
+v2019060311
 {{site.time}}
