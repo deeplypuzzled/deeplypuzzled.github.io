@@ -8,17 +8,17 @@ title: Blog
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = '%H:%M %d %m %Y' -%}
+        {%- assign date_format = '%d %b %Y' -%}
 
         {%- if page.last_modified_at -%}
-            Last updated: {{ page.last_modified_at | date: date_format }}
+            Last updated on: {{ page.last_modified_at | date: date_format }}
         {%- else -%}
-            Last updated: {{ page.date | date: date_format }}
+            Last updated on: {{ page.date | date: date_format }}
         {%- endif -%}
       </time>
       <br />
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-            Originally published on: {{ page.date | date: date_format }}
+            Originally published: {{ page.date | date: date_format }}
       </time>
       {%- if page.author -%}
         &nbsp;•&nbsp;<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author | escape }}</span></span>
