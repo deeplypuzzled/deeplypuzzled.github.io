@@ -143,29 +143,6 @@ Here is some text with a footnote.[^1]
 | Foot1   | Foot2   | Foot3
 {: rules="groups"}
 
-## Variables
-
-In each case, the variable is enclosed in double curly brackets:\\
-\{\{ *variable_name* \}\}
-
-* site &#8594; {{ site }}
-* page &#8594; (the whole page)
-* site.time &#8594; {{ site.time }}
-* page.title &#8594; {{ page.title }}
-* page.url &#8594; {{ page.url }}
-* page.path &#8594; {{ page.path }}
-* page.dir &#8594; {{ page.dir }}
-
-### Variables used for blog pages
-
-* paginator &#8594; {{ paginator }}
-* site.pages &#8594; (404)
-* site.related_posts &#8594; {{ site.related_posts }}
-* site.static_files &#8594; {{ site.static_files }}
-* page.date &#8594; {{ page.date }}
-* page.id &#8594; {{ page.id }}
-* page.next &#8594; {{ page.next }}
-
 # More examples
 
 ## Headers
