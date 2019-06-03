@@ -44,7 +44,9 @@ kramdown allows attributes to be appended:
 
 ![Kitten](/assets/images/kitten-550x825.jpg "A kitten"){: width="100" height="150" style="float:right; padding:16px"}
 *Code:* `![Kitten](/assets/images/kitten-550x825.jpg "A kitten"){: width="100" height="150" style="float:right; padding:16px"}`
-\\\\
+\\
+\\
+\\
 
 ## Blockquotes (and code blocks)
 
