@@ -9,6 +9,7 @@ title: Blog
         {%- assign date_format = '%d %b %Y' -%}
         <p class="post-meta">
         {%- if page.last_modified_at -%}
+        <em>
           <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
             Last updated on: {{ page.last_modified_at | date: date_format }}
           </time>
@@ -19,6 +20,7 @@ title: Blog
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
             Originally published: {{ page.date | date: date_format }}
       </time>
+      </em>
       {%- if page.author -%}
         &nbsp;•&nbsp;<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author | escape }}</span></span>
       {%- endif -%}
